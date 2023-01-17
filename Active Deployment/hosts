@@ -1,0 +1,17 @@
+127.0.0.1 localhost.localdomain   localhost
+# This line should be changed on every node to the correct servername:
+127.0.1.1 panel.example.com panel
+# These lines are the same on every node:
+10.0.3.2 panel.threefold.services panel
+10.0.6.2 web.threefold.services web
+10.0.4.2 db.threefold.services db
+10.0.8.2 mail1.threefold.services mail1
+10.0.9.2 mail2.threefold.services mail2
+10.0.5.2 ns1.threefold.services ns1
+10.0.7.2 ns2.threefold.services ns2
+10.0.8.3 webmail.threefold.services webmail
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
