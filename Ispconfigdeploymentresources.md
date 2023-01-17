@@ -14,3 +14,5 @@
 	- 2 cores, 2048 Ram, 25GB, Public IP, YGG, Wiregaurd 
 - DNS2 Server 
 	- 2 cores, 2048 Ram, 25GB, Public IP, YGG, Wiregaurd 
+- Terraformer 
+	- 2 cores, 2048 Ram, 25GB, Public IP, YGG, Wiregaurd
