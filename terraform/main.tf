@@ -60,14 +60,14 @@ provider "grid" {
     network   = "${var.NETWORK}"  
 }
 resource "grid_network" "net1" {
-    nodes = ["{var.ISPCONFIG_NODES}"]
+    nodes = ["${var.ISPCONFIG_NODES}"]
     ip_range = "10.0.0.0/16"
     name = "Net1"
     description = "servicesnetwork"
     add_wg_access = "true"
 }
 resource "grid_deployment" "D1" { 
-  node = "{var.PANEL_NODE}" 
+  node = "${var.PANEL_NODE}" 
   network_name = grid_network.net1.name 
   disks { 
 	 name = "root" 
@@ -92,7 +92,7 @@ resource "grid_deployment" "D1" {
   } 
 } 
 resource "grid_deployment" "D2" { 
-  node = "{var.WEB_NODE}" 
+  node = "${var.WEB_NODE}" 
   network_name = grid_network.net1.name 
   disks { 
 	 name = "root" 
@@ -125,7 +125,7 @@ resource "grid_deployment" "D2" {
   } 
 } 
 resource "grid_deployment" "D3" { 
-  node = "{var.DB_NODE}" 
+  node = "${var.DB_NODE}" 
   network_name = grid_network.net1.name 
   disks { 
 	 name = "root" 
@@ -158,7 +158,7 @@ resource "grid_deployment" "D3" {
   } 
 } 
 resource "grid_deployment" "D4" { 
-  node = "{var.MAIL1_NODE}" 
+  node = "${var.MAIL1_NODE}" 
   network_name = grid_network.net1.name 
   disks { 
 	 name = "root" 
@@ -191,7 +191,7 @@ resource "grid_deployment" "D4" {
   } 
 } 
 resource "grid_deployment" "D5" { 
-  node = "{var.MAIL2_NODE}" 
+  node = "${var.MAIL2_NODE}" 
   network_name = grid_network.net1.name 
   disks { 
 	 name = "root" 
@@ -224,7 +224,7 @@ resource "grid_deployment" "D5" {
   } 
 } 
 resource "grid_deployment" "D6" { 
-  node = "{var.NS1_NODE}" 
+  node = "${var.NS1_NODE}" 
   network_name = grid_network.net1.name 
   disks { 
 	 name = "root" 
@@ -249,7 +249,7 @@ resource "grid_deployment" "D6" {
   } 
 } 
 resource "grid_deployment" "D7" { 
-  node = "{var.NS2_NODE}" 
+  node = "${var.NS2_NODE}" 
   network_name = grid_network.net1.name 
   disks { 
 	 name = "root" 
