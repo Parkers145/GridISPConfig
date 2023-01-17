@@ -1,8 +1,8 @@
 **Panel.Threefold.Services**
 - node1_vm1_ip = "10.0.3.2"
 - public_ip1 = "185.69.166.151/24"
-- public_ip61 = "2a02:1802:5e:0:fc22:ffff:fe3d:5c28/64"
-- ygg_ip1 = "302:1d81:cef8:3049:2218:3d5:4751:98f5"
+- public_ip61 = "2a02:1802:5e:0:580c:dbff:fe54:c086/64"
+- ygg_ip1 = "302:1d81:cef8:3049:aa7b:6966:dd76:4932""
 
 **Web.Threefold.Services**
 - node2_vm1_ip = "10.0.6.2"
