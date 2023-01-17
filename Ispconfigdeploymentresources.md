@@ -1,4 +1,4 @@
-# ISP Config Deployment Structure 
+# ISP Config Deployment Resources Structure 
 
 - Panel Server 
 	- 2 cores, 2048 Ram, 25GB, Public IP, YGG, Wiregaurd 
