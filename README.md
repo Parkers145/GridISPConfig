@@ -39,7 +39,7 @@ This is space where I am Working to develop the building blocks nessecary to dev
 	- The [Documentation Page](https://www.ispconfig.org/documentation/) is an absolute treasure trove of information, and there is a complete manual avaialble for the project. 
 
 - Readily Available Resources 
-	- Terraform configuration files for the 5 vm network 
+	- Terraform configuration files for the 7 vm network 
 	- Public ip addresses 
 	- Storage, Compute and Bandwidth 
 	
